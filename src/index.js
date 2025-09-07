@@ -16,7 +16,7 @@ export function animate({
   from = 0,
   to = 1,
   duration = 1000,
-  onUpdate = () => {},
+  onUpdate,
   loop = false,
   easing = easings.linear,
   onComplete
@@ -47,6 +47,3 @@ export const easings = {
   easeOutQuad: t => t * (2 - t),
   easeInOutQuad: t => (t < 0.5 ? 2 * t * t : -1 + (4 - 2 * t) * t)
 };
-
-//TODO: Implement library functionality.
-
