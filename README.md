@@ -6,7 +6,11 @@
 
 ```html
 <!doctype html>
-<html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>requestAnimationFrame example</title>
+  </head>
   <body>
     <canvas id="canvas" width="300" height="100"></canvas>
     <script type="module" src="src/example.js"></script>
