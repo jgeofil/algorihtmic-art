@@ -33,3 +33,13 @@ Advanced demonstrations leveraging p5.js live in the `p5js` directory:
 - **pixelGlitch** – direct pixel manipulation for glitch art effects.
 
 Each sketch can be run by loading p5.js in an HTML file and including the desired script from the `p5js` folder.
+
+## three.js scenes
+
+Creative three.js demos live in the `threejs` directory:
+
+- **shaderSphere** – animated sphere coloured by a custom fragment shader.
+- **instancedSpiral** – hundreds of instanced cubes swirling in a spiral.
+- **gltfScene** – loads a glTF model with orbit controls.
+
+Each scene can be run by creating an HTML file that imports the desired script as a module.
