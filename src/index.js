@@ -16,7 +16,7 @@ export function animate({
   from = 0,
   to = 1,
   duration = 1000,
-  onUpdate,
+  onUpdate = () => {},
   loop = false,
   easing = easings.linear,
   onComplete
