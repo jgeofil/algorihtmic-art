@@ -28,4 +28,3 @@ if (!canvas) {
 
   bounce();
 }
-
