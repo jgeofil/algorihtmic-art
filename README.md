@@ -23,3 +23,13 @@
 - **Fading text** – Add an element like `<div id="text">Hello</div>` to the HTML and use `src/fadeText.js` to fade the text in and out.
 
 Each example imports the `animate` helper from `src/index.js`, showcasing different ways to animate values on the page.
+
+## p5.js sketches
+
+Advanced demonstrations leveraging p5.js live in the `p5js` directory:
+
+- **audioSpectrum** – audio-reactive radial visualizer using p5.sound.
+- **shaderTunnel** – custom fragment shader rendered in WebGL mode.
+- **pixelGlitch** – direct pixel manipulation for glitch art effects.
+
+Each sketch can be run by loading p5.js in an HTML file and including the desired script from the `p5js` folder.
