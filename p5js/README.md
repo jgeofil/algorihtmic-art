@@ -1,10 +1,11 @@
 # Advanced p5.js examples
 
-This directory showcases creative sketches that highlight powerful features of p5.js:
+This directory showcases creative sketches that highlight powerful features of p5.js. The examples are arranged in a loose progression of complexity:
 
 - **audioSpectrum.js** – Uses the p5.sound library and an FFT to draw a radial audio spectrum that reacts to a looping beat.
-- **shaderTunnel.js** – Demonstrates WebGL mode with a custom fragment shader generating a swirling colour tunnel.
 - **pixelGlitch.js** – Loads an image and glitches pixels directly for a chaotic, data-bent aesthetic.
+- **terrainFlow.js** – Generates a flowing 3D noise terrain in WebGL mode, bridging toward full 3D scenes.
+- **shaderTunnel.js** – Demonstrates WebGL mode with a custom fragment shader generating a swirling colour tunnel.
 
 ## Running a sketch
 

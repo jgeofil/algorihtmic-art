@@ -1,6 +1,6 @@
 # Advanced three.js examples
 
-This directory showcases creative scenes that highlight powerful features of three.js:
+This directory showcases creative scenes that highlight powerful features of three.js. The examples are ordered to build up in capability:
 
 - **shaderSphere.js** – Applies a custom GLSL fragment shader to a sphere for animated, psychedelic colours.
 - **instancedSpiral.js** – Uses an InstancedMesh to render hundreds of cubes swirling upward in a spiral.
