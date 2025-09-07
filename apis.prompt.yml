@@ -1,0 +1,23 @@
+messages:
+  - role: system
+    content: >-
+      You are a helpful assistant that breaks down action items for software
+      architecture.
+  - role: user
+    content: >-
+      Make a plan to add connectivity to the {{endpoint}} api to gather various
+      statistcs and data
+model: openai/gpt-4o
+testData:
+  - endpoint: reddit
+  - endpoint: pinterest
+  - endpoint: youtube
+evaluators:
+  - name: Relevance
+    uses: github/relevance
+  - name: Groundedness
+    uses: github/groundedness
+  - name: Fluency
+    uses: github/fluency
+  - name: Coherence
+    uses: github/coherence
