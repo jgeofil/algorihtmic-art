@@ -20,7 +20,7 @@
 ## More creative examples
 
 - **Bouncing ball** – Replace the script tag in the HTML with `src/bouncingBall.js` to see a ball continuously bounce within the canvas.
-- **Fading text** – Add an element like `<div id="text">Hello</div>` to the HTML and use `src/fadeText.js` to fade the text in and out.
+- **Fading text** – Add an element like `<div id="text">Hello</div>` to the HTML and replace the script tag's `src` with `src/fadeText.js` to see the text fade in and out.
 
 Each example imports the `animate` helper from `src/index.js`, showcasing different ways to animate values on the page.
 
