@@ -3,10 +3,22 @@
   "module": "index.ts",
   "type": "module",
   "private": true,
+  "scripts": {
+    "dev": "bun run src/example.js",
+    "build": "bun build",
+    "test": "bun test",
+    "lint": "eslint . --ext .ts,.js"
+  },
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "@typescript-eslint/eslint-plugin": "^6.8.0",
+    "@typescript-eslint/parser": "^6.8.0",
+    "eslint": "^8.48.0",
+    "@types/three": "^0.153.18",
+    "@types/node": "^20.5.9",
+    "@types/p5": "^1.4.3"
   },
   "peerDependencies": {
-    "typescript": "^5"
+    "typescript": "^5.9.2"
   }
 }
