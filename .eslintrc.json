@@ -1,0 +1,64 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true
+  },
+  "globals": {
+    "preload": "readonly",
+    "loadSound": "readonly",
+    "setup": "readonly",
+    "createCanvas": "readonly",
+    "angleMode": "readonly",
+    "DEGREES": "readonly",
+    "p5": "readonly",
+    "noFill": "readonly",
+    "draw": "readonly",
+    "background": "readonly",
+    "stroke": "readonly",
+    "translate": "readonly",
+    "width": "readonly",
+    "height": "readonly",
+    "map": "readonly",
+    "cos": "readonly",
+    "sin": "readonly",
+    "line": "readonly",
+    "loadImage": "readonly",
+    "image": "readonly",
+    "loadPixels": "readonly",
+    "random": "readonly",
+    "floor": "readonly",
+    "constrain": "readonly",
+    "pixels": "readonly",
+    "updatePixels": "readonly",
+    "noLoop": "readonly",
+    "WEBGL": "readonly",
+    "noStroke": "readonly",
+    "shader": "readonly",
+    "millis": "readonly",
+    "rect": "readonly",
+    "rotateX": "readonly",
+    "PI": "readonly",
+    "beginShape": "readonly",
+    "TRIANGLE_STRIP": "readonly",
+    "noise": "readonly",
+    "vertex": "readonly",
+    "endShape": "readonly"
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "plugins": [
+    "@typescript-eslint"
+  ],
+  "rules": {
+    "@typescript-eslint/no-unused-vars": "off",
+    "no-inner-declarations": "off"
+  }
+}
