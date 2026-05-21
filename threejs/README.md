@@ -43,4 +43,3 @@ This directory also contains general-purpose scripts for creative coding. They a
 
 2. Open the file directly in a browser or serve it locally.
 
-Each scene imports dependencies from a CDN and is self-contained for easy experimentation.
