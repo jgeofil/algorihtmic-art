@@ -15,7 +15,7 @@
     "@typescript-eslint/parser": "^8.59.4",
     "eslint": "^8.48.0",
     "@types/three": "^0.153.0",
-    "@types/node": "^25.9.1",
+    "@types/node": "^26.6.1",
     "@types/p5": "^1.4.3"
   },
   "peerDependencies": {
